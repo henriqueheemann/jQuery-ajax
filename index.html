@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Implementação jQuery.ajax</h1>
-    <label for="Nome">Nome</label>
-    <input type="text" id="nome">
-    <label for="Salario">Salário</label>
-    <input type="text" id="salario">
-    <button id="enviar">Enviar Funcionário</button>
-    <label for="" id="resultado"></label>
+    <label for="jogador1">Nome do jogador 1:</label>
+    <input type="text" id="jogador1">
+    <br>
+    <label for="jogador2">Nome do jogador 2:</label>
+    <input type="text" id="jogador2">
+    <div id="jogoVelha">
+        <div class="linha">
+            <div class="coluna" id="coluna1"></div>
+            <div class="coluna" id="coluna2"></div>
+            <div class="coluna" id="coluna3"></div>
+        </div>
+        <div class="linha">
+            <div class="coluna" id="coluna4"></div>
+            <div class="coluna" id="coluna5"></div>
+            <div class="coluna" id="coluna6"></div>
+        </div>
+        <div class="linha">
+            <div class="coluna" id="coluna7"></div>
+            <div class="coluna" id="coluna8"></div>
+            <div class="coluna" id="coluna9"></div>
+        </div>
+    </div>
+    <div id="resultado"></div>
+    <button id="txtJogoVelha">O que é Jogo da Velha</button>
+    <p id="resultadoAjax"></p>
 </body>
 <script src="script.js"></script>
 </html>
